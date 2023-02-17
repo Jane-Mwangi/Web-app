@@ -36,10 +36,11 @@
   /*   
   background-color: rgb(197, 43, 194); */
   margin-left: 6%;
+  color: #979090;
 }
 .aboutMePicText {
   display: flex;
-  height: 50vh;
+  height: 70vh;
   width: 100%;
   background-color: #180f24;
 
@@ -53,7 +54,7 @@
 .aboutMePic {
   width: 250px;
   height: 250px;
-  background-color: rgba(244, 239, 243, 0.938);
+  background-color: rgba(135, 127, 134, 0.938);
   border-radius: 30px;
   margin-top: 10px;
   margin-left: 5%;
@@ -69,6 +70,9 @@
 .WhoamI {
   margin-left: 20px;
   margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+ 
 }
 .WhoamIText {
   width: 90%;
@@ -77,11 +81,16 @@
   margin-left: 20px;
   /* border-radius: 20px; */
   /* padding-left: 10px; */
-  color: white;
+  color: #979090;
+  font-size: 20px;
+  font-weight: 100
+  
 }
 .PersonalInfo {
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 20px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .PersonalInfoItems2 {
@@ -91,8 +100,10 @@
   width: 80%;
   /* background-color: green; */
   justify-content: space-between;
-  color: white;
+  color: #979090;
   margin-top: 20px;
+  font-size: 17px;
+  font-weight: 100
 }
 .PersonalInfoItems1 {
   display: flex;
@@ -101,7 +112,9 @@
   width: 80%;
   /* background-color: rgb(0, 47, 128); */
   justify-content: space-between;
-  color: white;
+  color: #979090;
+  font-size: 17px;
+  font-weight: 100;
 }
 
 .PersonalInfoItemsLocation,
@@ -135,6 +148,7 @@
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
   border: none solid rgba(255, 255, 255, 0.107);
+  
 }
 .PersonalInfoItemsLocation {
   display: flex;
@@ -193,7 +207,7 @@ border-radius: 10px;
 .whatCanIDoContainer p {
   font-weight: 700;
   font-size: 170%;
-  font-family: serif;
+  /* font-family: serif; */
 }
 .WhatCanIDoSectionItems1 {
   display: flex;
@@ -205,7 +219,7 @@ border-radius: 10px;
   margin-left: 6%;
 }
 .WhatIDo1,.WhatIDo2 {
-  width: 40%;
+  width: 48%;
   height: 20vh;
   border-radius: 15px;
   display: flex;
@@ -215,6 +229,7 @@ border-radius: 10px;
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
   border: none solid rgba(255, 255, 255, 0.107);
+ 
   
 }
 /* .WhatIDo2{
@@ -281,4 +296,13 @@ justify-content: space-around;
 }
 .WhatCanIDoSectionItems{
   display: flex;
+}
+#UI,#Web{
+  color: #979090;
+  font-size: 15px;
+  
+}
+#UItitle,#Webtitle{
+  font-weight: 600;
+  
 }

@@ -1,6 +1,6 @@
 import "./topbar.css";
 import { Bungalow, Person, Article, Work, Contacts } from "@mui/icons-material";
-
+import { Icon } from "@iconify/react";
 export default function Topbar() {
   return (
     <div className="topbarContainer">
@@ -9,25 +9,33 @@ export default function Topbar() {
       </div>
       <div className="topbarContainerLeft">
         <div class="topbarContainerHome">
-          <Bungalow className="Bungalow" />
-          <div className="bungalowname">
-            Home
-            </div>
+          <div className="icon">
+            <Bungalow className="Bungalow" />
+          </div>
+          <div className="bungalowname">Home</div>
         </div>
         <div class="topbarContainerAbout">
-          <Person className="Bungalow" />
+        <div className="icon">
+            <Person className="Bungalow" />
+          </div>
           <div className="bungalowname">About</div>
         </div>
         <div class="topbarContainerResume">
-          <Article className="Bungalow" />
+        <div className="icon">
+            <Article className="Bungalow" />
+          </div>
           <div className="bungalowname">Resume</div>
         </div>
         <div class="topbarContainerWorks">
-          <Work className="Bungalow" />
+        <div className="icon">
+            <Work className="Bungalow" />
+          </div>
           <div className="bungalowname">Works</div>
         </div>
         <div class="topbarContainerContact">
-          <Contacts className="Bungalow" />
+        <div className="iconContacts">
+            <Contacts className="Bungalow" />
+          </div>
           <div className="bungalowname">Contact</div>
         </div>
       </div>

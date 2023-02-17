@@ -149,10 +149,12 @@ color: #FFFFFF;
 }
 ::placeholder {
    padding-left: 10px;
+   
   }
   .inputEmail,.inputMessage{
     margin-top: 30px;
      margin-left: 5%;
+
 
   }
 .inputEmail input,.inputMessage input{
@@ -162,7 +164,7 @@ color: #FFFFFF;
     border-radius: 10px;
     border: none;
     background-color: #180f24;
-
+text-decoration-color: #FFFFFF;
     justify-content: space-around;
     background: rgba(216, 219, 216, 0.1);
     backdrop-filter: blur(1.5px);

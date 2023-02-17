@@ -3,12 +3,12 @@ import {
   LocationOn,
   Phone,
   CalendarMonth,
-  Web,
-  DesignServices,
+
 } from "@mui/icons-material";
 import { Icon } from "@iconify/react";
 import Topbar from "../Topbar/Topbar";
 import "./about.css";
+
 export default function About() {
   return (
     <div className="aboutContainer">
@@ -24,14 +24,14 @@ export default function About() {
         </div>
 
         <div className="aboutMePicText">
-          <div className="aboutMePic"></div>
+          <div className="aboutMePic">
+      
+          </div>
           <div className="aboutMeText1">
             <div className="WhoamI">Who am I</div>
             <div className="WhoamIText">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Assumenda, eum. Dolorum, labore? Voluptatum corporis molestiae,
-              dolor possimus adipisci nesciunt eius aut magnam harum provident?
-              Architecto illum est obcaecati distinctio explicabo?
+            I am a web developer and UI/UX designer who is passionate about creating digital products that provide exceptional user experiences. I leverage my skills in programming and design to bring together form and function 
+            to create visually stunning, easy-to-use, and accessible websites and web applications.
             </div>
             <div className="PersonalInfo">
               <p>Personal Information</p>
@@ -84,16 +84,15 @@ export default function About() {
             <div className="WhatCanIDoSectionItems1">
               <div className="WhatIDo1">
                 <div className="webDevIcon">
-                  <Web />
+                <Icon icon="material-symbols:web" color="turquoise" width="30" height="30" />
                 </div>
                 <div className="webDevDetails">
                   <div className="webtext">
-                    <p>Web Development</p>
+                    <p id="Webtitle">Web Development</p>
                   </div>
                   <div className="webDevDetailsText">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      minima aspernatur
+                    <p id="Web">
+                    I stay current with the latest web technologies to deliver cutting-edge websites.
                     </p>
                   </div>
                 </div>
@@ -113,13 +112,12 @@ export default function About() {
               </div> */}
               <div className="WhatIDo2">
                 <div className="webDevIcon">
-                  <DesignServices />
+                <Icon icon="mdi:design" color="pink" width="30" height="30" />
                 </div>
                 <div className="webDevDetails">
-                  <p>UI/UXDevelopment </p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    minima aspernatur
+                  <p id="UItitle">UI/UX Development </p>
+                  <p id="UI">
+                  I create intuitive and visually appealing interfaces for seamless experiences
                   </p>
                 </div>
               </div>
@@ -171,16 +169,16 @@ export default function About() {
               </div>
               <div className="Knowledge">
                 <div className="html">
-                  <Icon icon="logos:html-5" width="70" height="70" />
+                  <Icon icon="logos:html-5" width="50" height="50" />
                 </div>
                 <div className="CSS">
-                  <Icon icon="logos:css-3" width="70" height="70" />
+                  <Icon icon="logos:css-3" width="50" height="50" />
                 </div>
                 <div className="JavaScript">
-                  <Icon icon="logos:javascript" width="70" height="70" />
+                  <Icon icon="logos:javascript" width="50" height="50" />
                 </div>
                 <div className="React">
-                  <Icon icon="skill-icons:react-dark" width="70" height="70" />
+                  <Icon icon="skill-icons:react-dark" width="50" height="50" />
                 </div>
               </div>
             </div>

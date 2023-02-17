@@ -39,7 +39,7 @@ export default function Contact() {
             </div>
             <div className="EmailText">
               <div className="EmailText1">
-                <p>Eamil</p>
+                <p>Email</p>
               </div>
               <div className="EmailText2">
                 <p>janenjery2020@gmail.com</p>
@@ -68,7 +68,7 @@ export default function Contact() {
         </div>
         <div className="ContactSec2">
           <div className="myDescription">
-            <p>I am always open to discuss product design or partnerships</p>
+            <p>I am always open to discuss product design,development or partnerships</p>
           </div>
           <div className="inputName">
             <input type="text" placeholder="Name*" />

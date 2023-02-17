@@ -39,7 +39,7 @@
 .topbarContainerBlogs,
 .topbarContainerContact {
   /* background-color: rgb(33, 195, 220); */
-  width: 15%;
+  width: 13%;
   height: 40px;
   margin-top: 20px;
   margin-left: 5px;
@@ -60,4 +60,18 @@
 .topbarContainerContact:hover,
 .topbarContainerWorks:hover {
   background-color: #0be5d8;
+}
+.bungalowname{
+  /* background-color: #883b3b; */
+  margin-left: 3px;
+  margin-top: 4px;
+}
+.icon{
+  margin-left: 10px;
+  margin-top: 3px;
+
+}
+.iconContacts{
+  margin-top: 5px;
+  margin-left: 10px;
 }

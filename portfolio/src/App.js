@@ -1,7 +1,7 @@
 
 import Home from "./components/home/Home";
 // import Topbar from "./components/Topbar/Topbar";
-// // import About from "./components/About/About";
+// import About from "./components/About/About";
 // import Contact from "./components/Contact/Contact";
 
 function App() {

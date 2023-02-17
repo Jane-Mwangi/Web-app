@@ -19,20 +19,17 @@ export default function Home() {
           <p>JENNAH</p>
         </div>
         <div className="topbarContainerLeft">
-          <a href="">
-            <div class="topbarContainerHome">
-              <div className="bungalowicon">
-                <Icon
-                  icon="material-symbols:home"
-                  color="white"
-                  width="25"
-                  height="25"
-                />
-              </div>
-              <div className="bungalowname">Home</div>
+          <div class="topbarContainerHome">
+            <div className="bungalowicon">
+              <Icon
+                icon="material-symbols:home"
+                color="  color: #979090;"
+                width="25"
+                height="25"
+              />
             </div>
-          </a>
-
+            <div className="bungalowname">Home</div>
+          </div>
           <div class="topbarContainerAbout">
             <Person className="Bungalow" />
             <div className="bungalowname">About</div>
@@ -55,7 +52,7 @@ export default function Home() {
         <div className="homeContainerMiddlePic"></div>
         <div className="homeContainerMiddleName">
           <h1>Jane Mwangi</h1>
-          <p>Front-End Developer</p>
+          <p>Web Developer</p>
         </div>
         <div className="homeContainerMiddleSoial">
           <div className="homeContainerMiddleSocialFb">

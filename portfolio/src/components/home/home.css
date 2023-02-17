@@ -34,7 +34,7 @@
 .topbarContainerWorks,
 .topbarContainerBlogs,
 .topbarContainerContact {
-  width: 12%;
+  width: 13%;
   height: 40px;
   margin-top: 20px;
   margin-left: 5px;
@@ -98,7 +98,7 @@
 }
 .homeContainerMiddlePic {
   width: 250px;
-  background-color: rgb(235, 228, 231);
+  background-color: rgb(154, 149, 151);
   height: 250px;
   margin-left: 40%;
   border-radius: 50%;
@@ -112,10 +112,12 @@
   margin-top: 20px;
   color: #979090;
 
+
   padding-left: 30px;
 }
 .homeContainerMiddleName p {
   padding-left: 30px;
+
 }
 .homeContainerMiddleSoial {
   width: 40%;
@@ -147,17 +149,17 @@
   margin-top: 5px;
 }
 .Bungalow {
-  color: white;
+  color: #979090;
   margin-top: 5px;
   padding-left: 10px;
 }
 .bungalowname {
-  color: aliceblue;
+  color: #979090;
   margin-top: 7px;
 width: 100%;
 font-size: 100%;
 margin-left: 5px;
-background-color: #979090;
+/* background-color: #979090; */
 }
 .facebook,.twitter,.instagram,.linkedin,.download{
     margin-top: 10px;

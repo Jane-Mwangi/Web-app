@@ -1,0 +1,284 @@
+.aboutContainer {
+  background-color: black;
+  width: 100%;
+  height: 150vh;
+}
+.topBarContainer {
+  color: white;
+}
+.aboutMeTexthr {
+  display: flex;
+}
+.hr {
+  width: 10%;
+  height: 10%;
+  /* background-color: tan; */
+  margin-left: 10px;
+}
+#hrline {
+  margin-top: 10%;
+  width: 100%;
+  height: 1.5px;
+  border: none;
+  background-color: #0BE5D8;
+}
+.aboutMeContainer {
+  width: 100%;
+  height: 100vh;
+  /* background-color: aqua; */
+  color: white;
+
+  border-radius: 10px;
+}
+.aboutMeText {
+  width: fit-content;
+  height: 30px;
+  /*   
+  background-color: rgb(197, 43, 194); */
+  margin-left: 6%;
+}
+.aboutMePicText {
+  display: flex;
+  height: 50vh;
+  width: 100%;
+  background-color: #180f24;
+
+  justify-content: space-around;
+  background: rgba(216, 219, 216, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: none solid rgba(255, 255, 255, 0.107);
+}
+.aboutMePic {
+  width: 250px;
+  height: 250px;
+  background-color: rgba(244, 239, 243, 0.938);
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 5%;
+}
+.aboutMeText1 {
+  width: 700px;
+  height: 50vh;
+  /* background-color: blueviolet; */
+  margin-right: 18%;
+  border-radius: 30px;
+  /* margin-left: 10%; */
+}
+.WhoamI {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.WhoamIText {
+  width: 90%;
+  height: fit-content;
+  /* background-color: tomato; */
+  margin-left: 20px;
+  /* border-radius: 20px; */
+  /* padding-left: 10px; */
+  color: white;
+}
+.PersonalInfo {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.PersonalInfoItems2 {
+  display: flex;
+  align-items: start;
+  height: 30%;
+  width: 80%;
+  /* background-color: green; */
+  justify-content: space-between;
+  color: white;
+  margin-top: 20px;
+}
+.PersonalInfoItems1 {
+  display: flex;
+  align-items: start;
+  height: fit-content;
+  width: 80%;
+  /* background-color: rgb(0, 47, 128); */
+  justify-content: space-between;
+  color: white;
+}
+
+.PersonalInfoItemsLocation,
+.PersonalInfoItemsEmail,
+.PersonalInfoItemsBirthday {
+  display: flex;
+  /* margin-left: 10px; */
+  /* background-color: #7f3a3a; */
+  width: 100%;
+}
+.PersonalInfoItemsPhone {
+  display: flex;
+  /* margin-left: 10px; */
+  /* background-color: #98771c; */
+  width: 100%;
+}
+.phoneIconContainer,
+.locationIconContainer,
+.EmailIconContainer,
+.birthdayIconContainer {
+  width: 35px;
+  height: 35px;
+  /* background-color: #6418ba; */
+  border-radius: 5px;
+  margin-left: 20px;
+  padding-left: 5px;
+  padding-top: 5px;
+  justify-content: space-around;
+  background: rgba(104, 105, 105, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: none solid rgba(255, 255, 255, 0.107);
+}
+.PersonalInfoItemsLocation {
+  display: flex;
+  /* margin-left: 10px; */
+  /* background-color: #18ba6e; */
+  width: 100%;
+}
+.phoneNumber,
+.locationName,
+.Email,
+.birthdayDate {
+  margin-left: 10px;
+  /* background-color: aqua; */
+  width: 70%;
+  /* padding-left: 10px; */
+}
+.phone{
+  color: #D927E9;
+}
+.location{
+  color: #C182C2;
+}
+.EmailDetails{
+  color: #3EE3C6;
+}
+.birthday{
+  color: #946298;
+}
+.phone,
+.location {
+  margin-left: 10%;
+  /* background-color: #fff; */
+}
+.WhatCanIDoSection{
+  height: 40vh;
+  width: 100%;
+  background-color: #000000;
+border-radius: 10px;
+  /* justify-content: space-around;
+  background: rgba(216, 219, 216, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: none solid rgba(255, 255, 255, 0.107); */
+  
+
+}
+
+.whatCanIDoContainer {
+  width: 15%;
+  height: 30px;
+  /* background-color: tomato; */
+  margin-left: 6%;
+  /* margin-top: 20px; */
+}
+.whatCanIDoContainer p {
+  font-weight: 700;
+  font-size: 170%;
+  font-family: serif;
+}
+.WhatCanIDoSectionItems1 {
+  display: flex;
+  margin-top: 20px;
+  width: 40%;
+  height: fit-content;
+  justify-content: space-between;
+  /* background-color: teal; */
+  margin-left: 6%;
+}
+.WhatIDo1,.WhatIDo2 {
+  width: 40%;
+  height: 20vh;
+  border-radius: 15px;
+  display: flex;
+  border-left: 1px solid #3f3939;
+  background: rgba(216, 219, 216, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: none solid rgba(255, 255, 255, 0.107);
+  
+}
+/* .WhatIDo2{
+  background-color: #fff;
+  margin-right: 15%;
+} */
+.webDevIcon,.UIUXDevIcon,.DebbugingIcon,.TestingIcon{
+    /* background-color: #7f58b9; */
+    width: fit-content;
+    height: fit-content;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+.webDevDetails,.UIUXDetails{
+    width: 100%;
+    height: 100%;
+    /* background-color: tomato; */
+    padding-left: 5px;
+    font-size: small;
+}
+/* .webDevDetails{
+  background-color: #846262;
+} */
+.webDevDetailsText{
+  /* background-color: aliceblue; */
+  margin-top: 0;
+}
+/* .webtext{
+  background-color: #852222;
+} */
+.Knowledge{
+  /* background-color: aliceblue; */
+  height: fit-content;
+  width: 100%;
+  /* margin-right: 70px; */
+margin-left: 1%;
+display: flex;
+border-radius: 10px;
+/* margin-top: 25px; */
+justify-content: space-around;
+}
+.knowledgetext{
+  font-size: medium;
+  font-weight: bold;
+  padding-left: 50px;
+  /* background-color: red; */
+}
+.knowledgecontainer{
+  height: 30vh;
+  width: 30%;
+  margin-right: 6%;
+  /* background-color: #6f4fc4; */
+  margin-left: 12%;
+}
+
+.html,.CSS,.JavaScript,.React{
+  width: 70px;
+  height: 70px;
+  /* background-color: #563232; */
+ 
+  align-items: center;
+  /* margin-left: 20px; */
+  /* margin-left: 10%; */
+}
+.WhatCanIDoSectionItems{
+  display: flex;
+}

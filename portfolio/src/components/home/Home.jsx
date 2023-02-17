@@ -1,6 +1,5 @@
 import "./home.css";
 import {
-
   Person,
   Article,
   Work,
@@ -20,12 +19,19 @@ export default function Home() {
           <p>JENNAH</p>
         </div>
         <div className="topbarContainerLeft">
-          <div class="topbarContainerHome">
-            <div className="bungalowicon">
-            <Icon icon="material-symbols:home" color="white" width="25" height="25" />
+          <a href="">
+            <div class="topbarContainerHome">
+              <div className="bungalowicon">
+                <Icon
+                  icon="material-symbols:home"
+                  color="white"
+                  width="25"
+                  height="25"
+                />
+              </div>
+              <div className="bungalowname">Home</div>
             </div>
-            <div className="bungalowname">Home</div>
-          </div>
+          </a>
 
           <div class="topbarContainerAbout">
             <Person className="Bungalow" />

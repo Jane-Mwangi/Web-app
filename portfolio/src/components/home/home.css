@@ -18,6 +18,14 @@
   margin-left: 20px;
   
 }
+.topbarContainerLogo p{
+  color: red;
+  font-weight: bold;
+  /* color: #0be5d8; */
+  font-size: x-large;
+  font-family: "RoundedMplus1c-ExtraBold";
+
+}
 .topbarContainerLeft {
   display: flex;
   /* background-color: tomato; */
@@ -81,11 +89,7 @@
 .topbarContainerWorks:hover {
   background-color: #0be5d8;
 }
-.topbarContainerLogo p{
-  font-weight: bold;
-  color: #0be5d8;
-  font-size: x-large;
-}
+
 .homeContainerMiddle {
   align-items: center;
   width: 50%;

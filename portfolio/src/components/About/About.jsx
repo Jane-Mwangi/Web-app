@@ -12,9 +12,9 @@ import "./about.css";
 export default function About() {
   return (
     <div className="aboutContainer">
-      <div className="topBarContainer">
+      {/* <div className="topBarContainer">
         <Topbar />
-      </div>
+      </div> */}
       <div className="aboutMeContainer">
         <div className="aboutMeTexthr ">
           <div className="aboutMeText">About Me</div>

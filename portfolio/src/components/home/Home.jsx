@@ -11,10 +11,11 @@ import {
   Download,
 } from "@mui/icons-material";
 import { Icon } from "@iconify/react";
+import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div className="homeContainer">
-      <div className="topbarContainer">
+      {/* <div className="topbarContainer">
         <div className="topbarContainerLogo">
           <p>JENNAH</p>
         </div>
@@ -32,7 +33,10 @@ export default function Home() {
           </div>
           <div class="topbarContainerAbout">
             <Person className="Bungalow" />
-            <div className="bungalowname">About</div>
+            <div className="bungalowname">
+              <Link to={'/about'}>About</Link>
+              
+              </div>
           </div>
           <div class="topbarContainerResume">
             <Article className="Bungalow" />
@@ -47,7 +51,7 @@ export default function Home() {
             <div className="bungalowname">Contact</div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="homeContainerMiddle">
         <div className="homeContainerMiddlePic"></div>
         <div className="homeContainerMiddleName">

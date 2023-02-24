@@ -4,9 +4,6 @@ import { Icon } from "@iconify/react";
 export default function Contact() {
   return (
     <div className="ContactContainer">
-      {/* <div className="Topbar">
-        <Topbar />
-      </div> */}
       <div className="ContactTextHr">
         <div className="contactText">
           <p>Contact</p>

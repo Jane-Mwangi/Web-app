@@ -16,35 +16,33 @@ export default function Topbar() {
           <div className="bungalowname">Home</div>
         </div>
         <div class="topbarContainerAbout">
-        <div className="icon">
+          <div className="icon">
             <Person className="Bungalow" />
           </div>
           <div className="bungalowname">
-            <Link className="link" to={'/about'}>About</Link>  
+            <Link className="link" to={"/about"}>
+              About
+            </Link>
           </div>
-            </div>
         </div>
-        <div class="topbarContainerResume">
+      <div class="topbarContainerWorks">
         <div className="icon">
-            <Article className="Bungalow" />
-          </div>
-          <div className="bungalowname">Resume</div>
+          <Work className="Bungalow" />
         </div>
-        <div class="topbarContainerWorks">
-        <div className="icon">
-            <Work className="Bungalow" />
-          </div>
-          <div className="bungalowname">Works</div>
-        </div>
-        <div class="topbarContainerContact">
+        <div className="bungalowname">Works</div>
+      </div>
+      <div class="topbarContainerContact">
         <div className="iconContacts">
-            <Contacts className="Bungalow" />
-          </div>
-          <div className="bungalowname">
-          <Link className="link" to={'/contact'}>Contact</Link>
-          </div>
+          <Contacts className="Bungalow" />
+        </div>
+        <div className="bungalowname">
+          <Link className="link" to={"/contact"}>
+            Contact
+          </Link>
         </div>
       </div>
+      </div>
+    </div>
     // </div>
   );
 }

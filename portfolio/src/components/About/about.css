@@ -12,36 +12,35 @@
 .hr {
   width: 10%;
   height: 10%;
-  /* background-color: tan; */
   margin-left: 10px;
 }
 #hrline {
-  margin-top: 10%;
+  /* margin-top: 10%; */
   width: 100%;
   height: 1.5px;
   border: none;
-  background-color: #0BE5D8;
+  background-color: #0be5d8;
 }
 .aboutMeContainer {
   width: 100%;
   height: 100vh;
-  /* background-color: aqua; */
   color: white;
-
   border-radius: 10px;
 }
 .aboutMeText {
   width: fit-content;
   height: 30px;
-  /*   
-  background-color: rgb(197, 43, 194); */
   margin-left: 6%;
-  color: #979090;
+  padding-top: 30px;
+  color: white;
+  font-family: "Nunito-Regular";
+  font-size: 25px;
 }
 .aboutMePicText {
   display: flex;
   height: 70vh;
   width: 100%;
+
   background-color: #180f24;
 
   justify-content: space-around;
@@ -59,38 +58,39 @@
   margin-top: 10px;
   margin-left: 5%;
 }
+/* .aboutMePic img{
+  object-fit: contain;
+} */
 .aboutMeText1 {
   width: 700px;
   height: 50vh;
-  /* background-color: blueviolet; */
+
   margin-right: 18%;
   border-radius: 30px;
-  /* margin-left: 10%; */
+
 }
 .WhoamI {
   margin-left: 20px;
   margin-top: 10px;
-  font-size: 20px;
-  font-weight: 700;
- 
+  font-size: 25px;
+  font-family: "Nunito-Regular";
 }
 .WhoamIText {
   width: 90%;
   height: fit-content;
-  /* background-color: tomato; */
+
   margin-left: 20px;
-  /* border-radius: 20px; */
-  /* padding-left: 10px; */
+  font-family: "Nunito-ExtraLight";
   color: #979090;
   font-size: 20px;
-  font-weight: 100
-  
+  font-weight: 100;
 }
 .PersonalInfo {
   margin-top: 5px;
   margin-left: 20px;
   font-weight: 700;
   font-size: 20px;
+  font-family: "Nunito-Regular";
 }
 
 .PersonalInfoItems2 {
@@ -98,19 +98,19 @@
   align-items: start;
   height: 30%;
   width: 80%;
-  /* background-color: green; */
+  font-family: "Nunito-ExtraLight";
   justify-content: space-between;
   color: #979090;
   margin-top: 20px;
   font-size: 17px;
-  font-weight: 100
+  font-weight: 100;
 }
 .PersonalInfoItems1 {
   display: flex;
   align-items: start;
   height: fit-content;
   width: 80%;
-  /* background-color: rgb(0, 47, 128); */
+  font-family: "Nunito-ExtraLight";
   justify-content: space-between;
   color: #979090;
   font-size: 17px;
@@ -121,14 +121,10 @@
 .PersonalInfoItemsEmail,
 .PersonalInfoItemsBirthday {
   display: flex;
-  /* margin-left: 10px; */
-  /* background-color: #7f3a3a; */
   width: 100%;
 }
 .PersonalInfoItemsPhone {
   display: flex;
-  /* margin-left: 10px; */
-  /* background-color: #98771c; */
   width: 100%;
 }
 .phoneIconContainer,
@@ -137,7 +133,6 @@
 .birthdayIconContainer {
   width: 35px;
   height: 35px;
-  /* background-color: #6418ba; */
   border-radius: 5px;
   margin-left: 20px;
   padding-left: 5px;
@@ -148,12 +143,9 @@
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
   border: none solid rgba(255, 255, 255, 0.107);
-  
 }
 .PersonalInfoItemsLocation {
   display: flex;
-  /* margin-left: 10px; */
-  /* background-color: #18ba6e; */
   width: 100%;
 }
 .phoneNumber,
@@ -161,53 +153,40 @@
 .Email,
 .birthdayDate {
   margin-left: 10px;
-  /* background-color: aqua; */
   width: 70%;
-  /* padding-left: 10px; */
 }
-.phone{
-  color: #D927E9;
+.phone {
+  color: #d927e9;
 }
-.location{
-  color: #C182C2;
+.location {
+  color: #c182c2;
 }
-.EmailDetails{
-  color: #3EE3C6;
+.EmailDetails {
+  color: #3ee3c6;
 }
-.birthday{
+.birthday {
   color: #946298;
 }
 .phone,
 .location {
   margin-left: 10%;
-  /* background-color: #fff; */
 }
-.WhatCanIDoSection{
+.WhatCanIDoSection {
   height: 40vh;
   width: 100%;
   background-color: #000000;
-border-radius: 10px;
-  /* justify-content: space-around;
-  background: rgba(216, 219, 216, 0.1);
-  backdrop-filter: blur(1.5px);
-  -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
-  border: none solid rgba(255, 255, 255, 0.107); */
-  
-
 }
 
 .whatCanIDoContainer {
   width: 15%;
   height: 30px;
-  /* background-color: tomato; */
   margin-left: 6%;
-  /* margin-top: 20px; */
 }
 .whatCanIDoContainer p {
   font-weight: 700;
   font-size: 170%;
-  /* font-family: serif; */
+  font-family: "Nunito-Regular";
 }
 .WhatCanIDoSectionItems1 {
   display: flex;
@@ -215,10 +194,10 @@ border-radius: 10px;
   width: 40%;
   height: fit-content;
   justify-content: space-between;
-  /* background-color: teal; */
   margin-left: 6%;
 }
-.WhatIDo1,.WhatIDo2 {
+.WhatIDo1,
+.WhatIDo2 {
   width: 48%;
   height: 20vh;
   border-radius: 15px;
@@ -229,55 +208,49 @@ border-radius: 10px;
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
   border: none solid rgba(255, 255, 255, 0.107);
- 
-  
 }
 /* .WhatIDo2{
   background-color: #fff;
   margin-right: 15%;
 } */
-.webDevIcon,.UIUXDevIcon,.DebbugingIcon,.TestingIcon{
-    /* background-color: #7f58b9; */
-    width: fit-content;
-    height: fit-content;
-    margin-top: 18px;
-    margin-left: 5px;
+.webDevIcon,
+.UIUXDevIcon,
+.DebbugingIcon,
+.TestingIcon {
+
+  width: fit-content;
+  height: fit-content;
+  margin-top: 18px;
+  margin-left: 5px;
 }
-.webDevDetails,.UIUXDetails{
-    width: 100%;
-    height: 100%;
-    /* background-color: tomato; */
-    padding-left: 5px;
-    font-size: small;
+.webDevDetails,
+.UIUXDetails {
+  width: 100%;
+  height: 100%;
+ 
+  padding-left: 5px;
+  font-size: small;
+  font-family: "Nunito-ExtraLight";
 }
-/* .webDevDetails{
-  background-color: #846262;
-} */
-.webDevDetailsText{
-  /* background-color: aliceblue; */
-  margin-top: 0;
-}
-/* .webtext{
-  background-color: #852222;
-} */
-.Knowledge{
-  /* background-color: aliceblue; */
+
+.Knowledge {
+
   height: fit-content;
   width: 100%;
-  /* margin-right: 70px; */
-margin-left: 1%;
-display: flex;
-border-radius: 10px;
-/* margin-top: 25px; */
-justify-content: space-around;
+
+  margin-left: 1%;
+  display: flex;
+  border-radius: 10px;
+
+  justify-content: space-around;
 }
-.knowledgetext{
-  font-size: medium;
+.knowledgetext {
+  font-family: "Nunito-Regular";
   font-weight: bold;
   padding-left: 50px;
-  /* background-color: red; */
+  
 }
-.knowledgecontainer{
+.knowledgecontainer {
   height: 30vh;
   width: 30%;
   margin-right: 6%;
@@ -285,24 +258,27 @@ justify-content: space-around;
   margin-left: 12%;
 }
 
-.html,.CSS,.JavaScript,.React{
+.html,
+.CSS,
+.JavaScript,
+.React {
   width: 70px;
   height: 70px;
   /* background-color: #563232; */
- 
+
   align-items: center;
   /* margin-left: 20px; */
   /* margin-left: 10%; */
 }
-.WhatCanIDoSectionItems{
+.WhatCanIDoSectionItems {
   display: flex;
 }
-#UI,#Web{
+#UI,
+#Web {
   color: #979090;
   font-size: 15px;
-  
 }
-#UItitle,#Webtitle{
+#UItitle,
+#Webtitle {
   font-weight: 600;
-  
 }

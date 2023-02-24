@@ -12,10 +12,10 @@
 .contactText {
   height: fit-content;
   width: fit-content;
-  /* background-color: #fff; */
   margin-left: 10%;
   margin-top: 20px;
   color: white;
+  font-family: "Nunito-ExtraBold";
 }
 .hr {
   width: 10%;
@@ -51,92 +51,91 @@
   background: #262626;
   border-radius: 20px;
 }
-.phoneIconSec,.EmailIconSec{
-    /* background-color: #3a5ca0; */
-    height: fit-content;
-    margin-left: 10px;
-    margin-top: 10px;
+.phoneIconSec,
+.EmailIconSec {
+  height: fit-content;
+  margin-left: 10px;
+  margin-top: 10px;
 }
-.phoneText,.EmailText{
-    /* background-color: #fff; */
-    margin-left: 15px;
-   
+.phoneText,
+.EmailText {
+  /* background-color: #fff; */
+  margin-left: 15px;
 }
-.phoneText1,.EmailText1{
-   color: #FFFFFF;
-
+.phoneText1,
+.EmailText1 {
+  color: white;
+  font-family: "Nunito-Bold";
 }
-.phoneText1 p,.EmailText1{
-    font-weight: bold;
-    font-size: large;
+.phoneText1 p,
+.EmailText1 {
+  font-weight: bold;
+  font-size: large;
 }
-.phoneText2,.phoneText3,.EmailText2,.EmailText3{
-color: #979090;
-}
-/* .phoneText2{
-    background-color: #f31414;
-} */
-.ContactSec1Phone,.ContactSec1Email,.ContactSec1Address{
-    display: flex;
-    width: 100%;
-    height: 151px;
-    /* background-color: #fff; */
+.phoneText2,
+.phoneText3,
+.EmailText2,
+.EmailText3 {
+  color: #979090;
+  font-family: "Nunito-Regular";
 }
 
-.ContactSec1Email,.ContactSec1Address{
-margin-top: 20px;
-width: 265px;
-height: 151px;
-background:#262626;
-border-radius: 20px;
-
+.ContactSec1Phone,
+.ContactSec1Email,
+.ContactSec1Address {
+  display: flex;
+  width: 100%;
+  height: 151px;
+  /* background-color: #fff; */
 }
-.ContactSec2{
-    /* Rectangle 19 */
 
-box-sizing: border-box;
-
-
-width: 70%;
-height: 80vh;
-left: 473px;
-top: 214px;
-
-border: 1.5px solid #3a3939;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-border-radius: 20px;
-
+.ContactSec1Email,
+.ContactSec1Address {
+  margin-top: 20px;
+  width: 265px;
+  height: 151px;
+  background: #262626;
+  border-radius: 20px;
 }
-.myDescription{
-    width: fit-content;
-    height: fit-content;
-    /* background-color: tomato; */
-    margin-left: 5%;
+.ContactSec2 {
+  /* Rectangle 19 */
+
+  box-sizing: border-box;
+
+  width: 70%;
+  height: 80vh;
+  left: 473px;
+  top: 214px;
+
+  border: 1.5px solid #3a3939;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
 }
-.myDescription p{
-  
-width: 527px;
-font-style: normal;
-font-weight: 300;
-font-size: 25px;
-line-height: 34px;
-
-color: #FFFFFF;
-
-
-
+.myDescription {
+  width: fit-content;
+  height: fit-content;
+  /* background-color: tomato; */
+  margin-left: 5%;
 }
-.inputName{
-    margin-left: 5%;
-    
+.myDescription p {
+  width: 527px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 34px;
+  font-family: "Nunito-ExtraLight";
+  color: #ffffff;
 }
-.inputName input{
-    width: 527px;
-    outline: none;
-    height: 50px;
-    border-radius: 10px;
-    border: none;
-    background-color: #180f24;
+.inputName {
+  margin-left: 5%;
+}
+.inputName input {
+  width: 527px;
+  outline: none;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #180f24;
 
   justify-content: space-around;
   background: rgba(216, 219, 216, 0.1);
@@ -145,70 +144,65 @@ color: #FFFFFF;
   border-radius: 10px;
   border: none solid rgba(255, 255, 255, 0.107);
   cursor: pointer;
-    
 }
 ::placeholder {
-   padding-left: 10px;
-   
-  }
-  .inputEmail,.inputMessage{
-    margin-top: 30px;
-     margin-left: 5%;
-
-
-  }
-.inputEmail input,.inputMessage input{
-    width: 527px;
-    outline: none;
-    height: 50px;
-    border-radius: 10px;
-    border: none;
-    background-color: #180f24;
-text-decoration-color: #FFFFFF;
-    justify-content: space-around;
-    background: rgba(216, 219, 216, 0.1);
-    backdrop-filter: blur(1.5px);
-    -webkit-backdrop-filter: blur(1.5px);
-    border-radius: 10px;
-    border: none solid rgba(255, 255, 255, 0.107);
-    cursor: pointer;
+  padding-left: 10px;
+  font-family: "Nunito-ExtraLight";
 }
-.Submitbutton{
-    margin-top: 30px;
-    margin-left: 5%;
+.inputEmail,
+.inputMessage {
+  margin-top: 30px;
+  margin-left: 5%;
+}
+.inputEmail input,
+.inputMessage input {
+  width: 527px;
+  outline: none;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #180f24;
+  text-decoration-color: #ffffff;
+  justify-content: space-around;
+  background: rgba(216, 219, 216, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: none solid rgba(255, 255, 255, 0.107);
+  cursor: pointer;
+}
+.Submitbutton {
+  margin-top: 30px;
+  margin-left: 5%;
 }
 
-.Submitbutton button{
-    height: 50px;
-    width: 25%; 
-    border-radius: 25px; 
-    border: none;
-    background-color: #fff;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+.Submitbutton button {
+  height: 45px;
+  width: 20%;
+  border-radius: 25px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Nunito-Regular";
 }
 .button:hover {
-    background-color:  #0be5d8;
-    color: white;
-  }
-  
-.font-link {
-    font-family: 'Roboto', cursive;
-  }
-  
-
-.hrfooter{
-    width: 100%;
-    margin-top: 20px;
-
-/* background-color: tomato; */
-
+  background-color: #0be5d8;
+  color: white;
 }
- #hr{
-    color: #181818;
-    /* padding-top: 20px; */
-    height: 0.02px;
+
+.hrfooter {
+  width: 100%;
+  margin-top: 20px;
+
+  /* background-color: tomato; */
+}
+#hr {
+  color: #181818;
+  /* padding-top: 20px; */
+  height: 0.02px;
 }

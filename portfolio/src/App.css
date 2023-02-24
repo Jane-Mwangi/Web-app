@@ -1,26 +1,23 @@
 @font-face {
-  font-family: "RoundedMplus1c-Thin";
-  src: local("RoundedMplus1c-Thin"), url("./Fonts/RoundedMplus1c-Thin.ttf");
+  font-family: "Nunito-ExtraBold";
+  src: local("Nunito-ExtraBold"), url("./Fonts/Nunito-ExtraBold.ttf");
 }
 @font-face {
-  font-family: "RoundedMplus1c-ExtraBold";
-  src: local("RoundedMplus1c-ExtraBold"), url("./Fonts/RoundedMplus1c-ExtraBold.ttf");
-}
-/* *{
-  font-family: "RoundedMplus1c-ExtraBold";
-} */
-
-@font-face {
-  font-family: "RoundedMplus1c-Bold";
-  src: local("RoundedMplus1c-Bold"), url("./Fonts/RoundedMplus1c-Bold.ttf");
+  font-family: "Nunito-ExtraLight";
+  src: local("Nunito-ExtraLight"), url("./Fonts/Nunito-ExtraLight.ttf");
 }
 
 @font-face {
-  font-family: "RoundedMplus1c-Regular";
-  src: local("RoundedMplus1c-Regular"),
-    url("./Fonts/RoundedMplus1c-Regular.ttf");
+  font-family: "Nunito-Bold";
+  src: local("Nunito-Bold"), url("./Fonts/Nunito-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Nunito-Regular";
+  src: local("Nunito-Regular"),
+    url("./Fonts/Nunito-Regular.ttf");
 }
 @font-face {
-  font-family: "RoundedMplus1c-Light";
-  src: local url("Fonts/RoundedMplus1c-Light.ttf");
+  font-family: "Nunito-Light";
+  src: local( "Nunito-Light") url("Fonts/Nunito-Light.ttf");
 }

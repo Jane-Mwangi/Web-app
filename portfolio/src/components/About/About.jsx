@@ -6,15 +6,11 @@ import {
 
 } from "@mui/icons-material";
 import { Icon } from "@iconify/react";
-import Topbar from "../Topbar/Topbar";
 import "./about.css";
 
 export default function About() {
   return (
     <div className="aboutContainer">
-      {/* <div className="topBarContainer">
-        <Topbar />
-      </div> */}
       <div className="aboutMeContainer">
         <div className="aboutMeTexthr ">
           <div className="aboutMeText">About Me</div>
@@ -25,7 +21,7 @@ export default function About() {
 
         <div className="aboutMePicText">
           <div className="aboutMePic">
-      
+          {/* <img src= {process.env.PUBLIC_URL + 'Assets/Me.png'} alt="myimage" /> */}
           </div>
           <div className="aboutMeText1">
             <div className="WhoamI">Who am I</div>
@@ -70,7 +66,7 @@ export default function About() {
                   <CalendarMonth className="birthday" />
                 </div>
                 <div className="birthdayDate">
-                  Birthday <br /> 5 May 2000
+                  Birthday <br /> 1 November 2001
                 </div>
               </div>
             </div>
@@ -78,7 +74,7 @@ export default function About() {
         </div>
         <div className="WhatCanIDoSection">
           <div className="whatCanIDoContainer">
-            <p>What I Do!</p>
+            <p>What I Do !</p>
           </div>
           <div className="WhatCanIDoSectionItems">
             <div className="WhatCanIDoSectionItems1">
@@ -97,19 +93,6 @@ export default function About() {
                   </div>
                 </div>
               </div>
-              {/* <div className="WhatIDo2">
-              <div className="webDevIcon">
-                  <Apps />
-                </div>
-                <div className="webDevDetails">
-                  <p>App Development</p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    minima aspernatur ex illum nesciunt maiores itaque ad natus
-                    rerum fugit? Nam.
-                  </p>
-                </div>
-              </div> */}
               <div className="WhatIDo2">
                 <div className="webDevIcon">
                 <Icon icon="mdi:design" color="pink" width="30" height="30" />
@@ -122,47 +105,6 @@ export default function About() {
                 </div>
               </div>
             </div>
-            {/* <div className="WhatCanIDoSectionItems2">
-              <div className="WhatIDo4">
-                <div className="UIUXDevIcon">
-                  <DesignServices/>
-                </div>
-                <div className="UIUXDetails">
-                  <p>UI/UX  Development</p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    minima aspernatur ex illum nesciunt maiores itaque ad natus
-                    rerum fugit? Nam.
-                  </p>
-                </div>
-              </div>
-              <div className="WhatIDo5">
-              <div className="DebbugingIcon">
-                  <BugReport />
-                </div>
-                <div className="debbugingDetails">
-                  <p>Debbuging</p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    minima aspernatur ex illum nesciunt maiores itaque ad natus
-                    rerum fugit? Nam.
-                  </p>
-                </div>
-              </div>
-              <div className="WhatIDo6">
-              <div className="TestingIcon">
-                  <Api />
-                </div>
-                <div className="testingDetails">
-                  <p>Testing</p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    minima aspernatur ex illum nesciunt maiores itaque ad natus
-                    rerum fugit? Nam.
-                  </p>
-                </div>
-              </div>
-            </div> */}
             <div className="knowledgecontainer">
               <div className="knowledgetext" >
                 <p>Knowledge</p>

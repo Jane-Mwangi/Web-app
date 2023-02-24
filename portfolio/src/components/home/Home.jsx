@@ -1,59 +1,19 @@
 import "./home.css";
 import {
-  Person,
-  Article,
-  Work,
-  Contacts,
   Facebook,
   Twitter,
   Instagram,
   LinkedIn,
   Download,
 } from "@mui/icons-material";
-import { Icon } from "@iconify/react";
-import { Link } from 'react-router-dom';
+
 export default function Home() {
   return (
     <div className="homeContainer">
-      {/* <div className="topbarContainer">
-        <div className="topbarContainerLogo">
-          <p>JENNAH</p>
-        </div>
-        <div className="topbarContainerLeft">
-          <div class="topbarContainerHome">
-            <div className="bungalowicon">
-              <Icon
-                icon="material-symbols:home"
-                color="  color: #979090;"
-                width="25"
-                height="25"
-              />
-            </div>
-            <div className="bungalowname">Home</div>
-          </div>
-          <div class="topbarContainerAbout">
-            <Person className="Bungalow" />
-            <div className="bungalowname">
-              <Link to={'/about'}>About</Link>
-              
-              </div>
-          </div>
-          <div class="topbarContainerResume">
-            <Article className="Bungalow" />
-            <div className="bungalowname">Resume</div>
-          </div>
-          <div class="topbarContainerWorks">
-            <Work className="Bungalow" />
-            <div className="bungalowname">Works</div>
-          </div>
-          <div class="topbarContainerContact">
-            <Contacts className="Bungalow" />
-            <div className="bungalowname">Contact</div>
-          </div>
-        </div>
-      </div> */}
       <div className="homeContainerMiddle">
-        <div className="homeContainerMiddlePic"></div>
+        <div className="homeContainerMiddlePic">
+          <img src={process.env.PUBLIC_URL + "Assets/Me.png"} alt="myimage" />
+        </div>
         <div className="homeContainerMiddleName">
           <h1>Jane Mwangi</h1>
           <p>Web Developer</p>

@@ -1,34 +1,26 @@
 .homeContainer {
   width: 100%;
   height: 100vh;
-  background-color:#000000;
+  background-color: #000000;
 }
 .topbarContainer {
   width: 100%;
   height: 80px;
-  /* background-color: aliceblue; */
   display: flex;
   justify-content: space-between;
 }
 .topbarContainerLogo {
-  /* background-color: rgb(115, 0, 128); */
   width: 15%;
   height: 40px;
-  /* margin-top: 20px; */
   margin-left: 20px;
-  
 }
-.topbarContainerLogo p{
-  color: red;
+.topbarContainerLogo p {
+  font-family: "Nunito-ExtraBold";
   font-weight: bold;
-  /* color: #0be5d8; */
-  font-size: x-large;
-  font-family: "RoundedMplus1c-ExtraBold";
-
+  color: #0be5d8;
 }
 .topbarContainerLeft {
   display: flex;
-  /* background-color: tomato; */
   width: 60%;
   height: 60px;
   margin-top: 10px;
@@ -56,39 +48,12 @@
   transition-duration: 0.3s;
   color: #979090;
   position: relative;
-
 }
 
-.topbarContainerHome{
-
+.topbarContainerHome {
   display: flex;
 }
-/* .bungalowname{
-  background-color: #979090;
-  
-} */
-.topbarContainerHome a{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  text-decoration: none;
-  z-index: 1;
 
-  /* text-decoration: none;  */
-  /* z-index: 10;  */
-  /* background-color: #FFF; */
-  /* opacity: 0;  */
-  /* filter: alpha(opacity=1); */
-}
-.topbarContainerHome:hover,
-.topbarContainerAbout:hover,
-.topbarContainerResume:hover,
-.topbarContainerContact:hover,
-.topbarContainerWorks:hover {
-  background-color: #0be5d8;
-}
 
 .homeContainerMiddle {
   align-items: center;
@@ -108,25 +73,33 @@
   border-radius: 50%;
   /* margin-top: 10px; */
 }
+.homeContainerMiddlePic img {
+  width: 100%;
+  height: 100%;
+
+  border-radius: 50%;
+  object-fit: cover;
+}
 .homeContainerMiddleName {
   width: 40%;
-  /* background-color: rgb(196, 225, 225); */
   height: 100px;
   margin-left: 40%;
   margin-top: 20px;
   color: #979090;
 
-
   padding-left: 30px;
 }
+.homeContainerMiddleName h1{
+  font-family: "Nunito-Regular";
+}
 .homeContainerMiddleName p {
-  padding-left: 30px;
-
+  padding-left: 40px;
+  font-family: "Nunito-ExtraLight";
 }
 .homeContainerMiddleSoial {
   width: 40%;
   height: 70px;
-  /* background-color: aqua; */
+
   margin-left: 40%;
   display: flex;
 }
@@ -145,7 +118,7 @@
   margin-left: 10px;
   border-radius: 10px;
 }
-.bungalowicon{
+.bungalowicon {
   /* background-color: #b86262; */
   margin-left: 10%;
   width: fit-content;
@@ -160,46 +133,50 @@
 .bungalowname {
   color: #979090;
   margin-top: 7px;
-width: 100%;
-font-size: 100%;
-margin-left: 5px;
-/* background-color: #979090; */
+  width: 100%;
+  font-size: 100%;
+  margin-left: 5px;
+  /* background-color: #979090; */
 }
-.facebook,.twitter,.instagram,.linkedin,.download{
-    margin-top: 10px;
-   align-items: center;
-   margin-left: 12px;
-   cursor: pointer;
+.facebook,
+.twitter,
+.instagram,
+.linkedin,
+.download {
+  margin-top: 10px;
+  align-items: center;
+  margin-left: 12px;
+  cursor: pointer;
 }
-.facebook{
-    color: rgb(28, 129, 236);
+.facebook {
+  color: rgb(28, 129, 236);
 }
-.twitter{
-    color: rgb(52, 215, 244);
+.twitter {
+  color: rgb(50, 138, 231);
 }
-.instagram{
-    color: rgba(255, 0, 144, 0.895);
+.instagram {
+  color: rgba(255, 0, 144, 0.895);
 }
-.linkedin{
-    color: rgb(28, 129, 236);
+.linkedin {
+  color: rgb(28, 129, 236);
 }
-.CVcontainer{
-    width: 28%;
-    height: 40px;
-    background-color:  #0be5d8;
-    margin-left: 45%;
-    border-radius: 20px;
-    display: flex;
-    cursor: pointer;
+.CVcontainer {
+  width: 28%;
+  height: 40px;
+  background-color: #0be5d8;
+  margin-left: 45%;
+  border-radius: 20px;
+  display: flex;
+  cursor: pointer;
 }
-.download{
-    margin-left: 30px;
-    color: #979090;
-    cursor: pointer;
+.download {
+  margin-left: 30px;
+  color: #979090;
+  cursor: pointer;
 }
-.downloadcv{
-    margin-top: 8px;
-    margin-left: 10px;
-    color: #979090;
-
+.downloadcv {
+  margin-top: 8px;
+  margin-left: 10px;
+  color: #979090;
+  font-family: "Nunito-Regular";
 }

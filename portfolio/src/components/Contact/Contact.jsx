@@ -1,4 +1,4 @@
-import Topbar from "../Topbar/Topbar";
+
 import "./contact.css";
 import { Icon } from "@iconify/react";
 export default function Contact() {
@@ -14,7 +14,7 @@ export default function Contact() {
       </div>
       <div className="ContactSEc1Sec2">
         <div className="ContactSec1">
-          <div className="ContactSec1Phone">
+          <div className="ContactSec1Phone" id="Phone">
             <div className="phoneIconSec">
             <Icon icon="material-symbols:phone-in-talk" color="#0be5d8" width="50" height="50" />
             </div>
@@ -30,7 +30,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <div className="ContactSec1Email">
+          <div className="ContactSec1Email " id="Email">
           <div className="EmailIconSec">
           <Icon icon="material-symbols:attach-email" color="#FFA500" width="50" height="50" />
             </div>
@@ -46,7 +46,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <div className="ContactSec1Address">
+          <div className="ContactSec1Address" id="Address">
           <div className="EmailIconSec">
           <Icon icon="material-symbols:location-on-outline" color="#BB3F3F" width="50" height="50" />
             </div>
@@ -65,16 +65,16 @@ export default function Contact() {
         </div>
         <div className="ContactSec2">
           <div className="myDescription">
-            <p>I am always open to discuss product design,development or partnerships</p>
+            <p id="Description">I am always open to discuss product design,development or partnerships</p>
           </div>
           <div className="inputName">
-            <input type="text" placeholder="Name*" />
+            <input  type="text" placeholder="Name*" />
           </div>
           <div className="inputEmail">
-            <input type="text" placeholder="Email*" />
+            <input type="text" id="EmailInput" placeholder="Email*" />
           </div>
           <div className="inputMessage">
-            <input type="text" placeholder="Message*" />
+            <input type="text" id="Message" placeholder="Message*" />
           </div>
           <div className="Submitbutton">
         <button class="button button1">Submit</button>
@@ -82,7 +82,7 @@ export default function Contact() {
         </div>
       </div>
 
-        <hr id="hr2" />
+        
         <div className="Year">
        <p>&copy</p>
         </div>

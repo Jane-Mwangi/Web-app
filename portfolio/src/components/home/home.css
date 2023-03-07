@@ -3,17 +3,20 @@
   height: 100vh;
   background-color: #000000;
 }
+
 .topbarContainer {
   width: 100%;
   height: 80px;
   display: flex;
   justify-content: space-between;
 }
+
 .topbarContainerLogo {
   width: 15%;
   height: 40px;
   margin-left: 20px;
 }
+
 .topbarContainerLogo p {
   font-family: "Nunito-ExtraBold";
   font-weight: bold;
@@ -65,6 +68,19 @@
   margin-left: 25%;
   height: 80vh;
 }
+@media (max-width: 415px) {
+  .homeContainerMiddle {
+    font-size: 14px;
+    margin-left: 2%;
+  }
+}
+
+@media (max-width: 415px) {
+  .homeContainerMiddlePic {
+    font-size: 14px;
+    margin-left: 2%;
+  }
+}
 .homeContainerMiddlePic {
   width: 250px;
   background-color: rgb(154, 149, 151);
@@ -81,16 +97,24 @@
   object-fit: cover;
 }
 .homeContainerMiddleName {
-  width: 40%;
+  width: 100%;
   height: 100px;
   margin-left: 40%;
   margin-top: 20px;
   color: #979090;
-
+/* background-color: #fff; */
   padding-left: 30px;
 }
 .homeContainerMiddleName h1{
   font-family: "Nunito-Regular";
+}
+@media (max-width: 415px) {
+  .homeContainerMiddleName h1 {
+    font-size: 20px;
+    align-items: center;
+    margin-left: 30px;
+ 
+  }
 }
 .homeContainerMiddleName p {
   padding-left: 40px;
@@ -118,6 +142,20 @@
   margin-left: 10px;
   border-radius: 10px;
 }
+@media (max-width: 415px) {
+  .homeContainerMiddleSocialFb,
+  .homeContainerMiddleSocialTwitter,
+  .homeContainerMiddleSocialwhat,
+  .homeContainerMiddleSocialIn {
+    font-size: 20px;
+    align-items: center;
+    height: max-content;
+    width: max-content;
+  align-items: center;
+  padding-right: 7px;
+ 
+  }
+}
 .bungalowicon {
   /* background-color: #b86262; */
   margin-left: 10%;
@@ -140,7 +178,7 @@
 }
 .facebook,
 .twitter,
-.instagram,
+.github,
 .linkedin,
 .download {
   margin-top: 10px;
@@ -149,16 +187,19 @@
   cursor: pointer;
 }
 .facebook {
-  color: rgb(28, 129, 236);
+  color: #3b5998 ;
+;
+
 }
 .twitter {
-  color: rgb(50, 138, 231);
+  
+  color: #00acee;
 }
-.instagram {
-  color: rgba(255, 0, 144, 0.895);
+.github {
+ color: white;
 }
 .linkedin {
-  color: rgb(28, 129, 236);
+  color: #0072b1;
 }
 .CVcontainer {
   width: 28%;
@@ -169,14 +210,49 @@
   display: flex;
   cursor: pointer;
 }
+@media (max-width: 415px) {
+  .CVcontainer{
+    font-size: 15px;
+    align-items: center;
+    height: 40px;
+    width: max-content;
+  align-items: center;
+
+ margin-left: 60%;
+  }
+}
 .download {
   margin-left: 30px;
   color: #979090;
   cursor: pointer;
+}
+@media (max-width: 415px) {
+  .download{
+    font-size: 15px;
+    align-items: center;
+    height: max-content;
+    width: max-content;
+  align-items: center;
+margin-left: 10px;
+margin-top: 0;
+ 
+  }
 }
 .downloadcv {
   margin-top: 8px;
   margin-left: 10px;
   color: #979090;
   font-family: "Nunito-Regular";
+}
+@media (max-width: 415px) {
+  .downloadcv{
+    font-size: 15px;
+    align-items: center;
+    height: max-content;
+    width: max-content;
+  align-items: center;
+margin-right: 10px;
+margin-top: 0;
+ 
+  }
 }

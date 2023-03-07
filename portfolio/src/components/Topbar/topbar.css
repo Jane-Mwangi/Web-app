@@ -7,6 +7,7 @@
   /* background-color: black; */
   border-bottom: 1px solid  #3a3939;
 }
+
 .topbarContainerLogo {
   width: 15%;
   height: 50px;
@@ -32,10 +33,22 @@
 
   align-items: center;
 }
+@media (max-width: 415px) {
+  .topbarContainerLogo p{
+    font-size: 20px;
+    font-family: "RoundedMplus1c-ExtraBold";
+  }
+}
 .topbarContainerLeft{
   /* background-color: #fff; */
   width: 40%;
   margin-right: 6%;
+}
+@media (max-width: 415px) {
+  .topbarContainerLeft {
+    font-size: 14px;
+    display: none;
+  }
 }
 .topbarContainerHome,
 .topbarContainerAbout,

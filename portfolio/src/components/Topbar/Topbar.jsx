@@ -1,6 +1,6 @@
 import "./topbar.css";
-import { Bungalow, Person, Article, Work, Contacts } from "@mui/icons-material";
-import { Icon } from "@iconify/react";
+import { Bungalow, Person,Work, Contacts } from "@mui/icons-material";
+// import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 export default function Topbar() {
   return (
@@ -13,7 +13,12 @@ export default function Topbar() {
           <div className="icon">
             <Bungalow className="Bungalow" />
           </div>
-          <div className="bungalowname">Home</div>
+          <div className="bungalowname">
+          <Link className="link" to={"./"}>
+            Home
+          </Link>
+        
+          </div>
         </div>
         <div class="topbarContainerAbout">
           <div className="icon">
@@ -29,7 +34,10 @@ export default function Topbar() {
         <div className="icon">
           <Work className="Bungalow" />
         </div>
-        <div className="bungalowname">Works</div>
+        <div className="bungalowname">
+        <Link className="link" to={"/portfolio"}>
+          Portfolio
+          </Link></div>
       </div>
       <div class="topbarContainerContact">
         <div className="iconContacts">

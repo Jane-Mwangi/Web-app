@@ -3,9 +3,7 @@
   width: 100%;
   height: 150vh;
 }
-.topBarContainer {
-  color: white;
-}
+
 .aboutMeTexthr {
   display: flex;
 }
@@ -27,6 +25,13 @@
   color: white;
   border-radius: 10px;
 }
+@media (max-width: 415px) {
+  .aboutMePicText {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .aboutMeText {
   width: fit-content;
   height: 30px;
@@ -34,14 +39,16 @@
   padding-top: 30px;
   color: white;
   font-family: "Nunito-Regular";
+  /* background-color: #ca9696; */
   font-size: 25px;
 }
 .aboutMePicText {
   display: flex;
   height: 70vh;
-  width: 100%;
+  width: 90%;
+  background-color: #fff;
 
-  background-color: #180f24;
+  margin-left: 6%;
 
   justify-content: space-around;
   background: rgba(216, 219, 216, 0.1);
@@ -50,31 +57,88 @@
   border-radius: 10px;
   border: none solid rgba(255, 255, 255, 0.107);
 }
+@media (max-width: 415px) {
+  .aboutMePicText{
+   background-color: #dfaeae;
+  font-size: 15px;
+  height: 100vh;
+  }
+}
 .aboutMePic {
   width: 250px;
   height: 250px;
   background-color: rgba(135, 127, 134, 0.938);
   border-radius: 30px;
   margin-top: 10px;
-  margin-left: 5%;
+  /* margin-right: 3%; */
+  margin-left: 20px;
 }
-/* .aboutMePic img{
-  object-fit: contain;
-} */
+.aboutMePic img{
+position: relative;
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 5%;
+
+}
+@media (max-width: 768px) {
+  .aboutMePic img {
+    width: 100%;
+    height: 350px;
+
+   
+  }
+}
+@media (max-width: 768px) {
+  .aboutMePic {
+    width: 250px;
+    height: 250px;
+    flex-direction: column;
+
+   margin-top: -45px;
+  }
+}
 .aboutMeText1 {
-  width: 700px;
+  width: 80%;
   height: 50vh;
 
-  margin-right: 18%;
+  /* margin-right: 7%; */
   border-radius: 30px;
-
+}
+@media (max-width: 415px) {
+  .aboutMeText1 {
+    width: max-content;
+    height: 400px;
+    margin-top: 0;
+    margin-left: 7%;
+    /* background-color: #fff; */
+  }
 }
 .WhoamI {
   margin-left: 20px;
   margin-top: 10px;
   font-size: 25px;
   font-family: "Nunito-Regular";
+  animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+  border-right: 2px solid black;
+  white-space: nowrap;
+  overflow: hidden;
 }
+@media (max-width: 415px) {
+  .WhoamI,.WhoamIText {
+    width: max-content;
+    height: max-content;
+  font-size: 15px;
+  }
+}
+@media (max-width: 415px) {
+  #p {
+    width: 300px;
+    height: max-content;
+  font-size: 15px;
+  }
+}
+
 .WhoamIText {
   width: 90%;
   height: fit-content;
@@ -91,8 +155,29 @@
   font-weight: 700;
   font-size: 20px;
   font-family: "Nunito-Regular";
+  animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+  border-right: 2px solid black;
+  white-space: nowrap;
+  overflow: hidden;
 }
-
+@media (max-width: 415px) {
+  .PersonalInfo {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 415px) {
+  .PersonalInfoItems2,
+  .PersonalInfoItems1 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    font-style: 10px;
+  }
+}
 .PersonalInfoItems2 {
   display: flex;
   align-items: start;
@@ -123,10 +208,19 @@
   display: flex;
   width: 100%;
 }
+@media (max-width: 415px) {
+  .aboutMePic {
+    width: 270px;
+    height: 200px;
+    flex-direction: column;
+    margin-left: 7%;
+  }
+}
 .PersonalInfoItemsPhone {
   display: flex;
   width: 100%;
 }
+
 .phoneIconContainer,
 .locationIconContainer,
 .EmailIconContainer,
@@ -177,16 +271,38 @@
   background-color: #000000;
   border-radius: 10px;
 }
+@media (max-width: 415px) {
+  WhatCanIDoSection {
 
+    display: flex;
+    flex-direction: column;
+      font-size: 15px;
+  }
+}
 .whatCanIDoContainer {
   width: 15%;
   height: 30px;
   margin-left: 6%;
 }
+@media (max-width: 415px) {
+  .whatCanIDo1,.webDevDetails,
+  .UIUXDetails {
+   width: 300px;
+ 
+  }
+}
 .whatCanIDoContainer p {
   font-weight: 700;
   font-size: 170%;
   font-family: "Nunito-Regular";
+}
+@media (max-width: 415px) {
+  .whatCanIDoContainer p {
+   width: 300px;
+    display: flex;
+    flex-direction: column;
+      font-size: 15px;
+  }
 }
 .WhatCanIDoSectionItems1 {
   display: flex;
@@ -196,6 +312,14 @@
   justify-content: space-between;
   margin-left: 6%;
 }
+@media (max-width: 415px) {
+  .WhatCanIDoSectionItems1 {
+   width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .WhatIDo1,
 .WhatIDo2 {
   width: 48%;
@@ -209,15 +333,10 @@
   border-radius: 10px;
   border: none solid rgba(255, 255, 255, 0.107);
 }
-/* .WhatIDo2{
-  background-color: #fff;
-  margin-right: 15%;
-} */
 .webDevIcon,
 .UIUXDevIcon,
 .DebbugingIcon,
 .TestingIcon {
-
   width: fit-content;
   height: fit-content;
   margin-top: 18px;
@@ -227,14 +346,13 @@
 .UIUXDetails {
   width: 100%;
   height: 100%;
- 
+
   padding-left: 5px;
   font-size: small;
   font-family: "Nunito-ExtraLight";
 }
 
 .Knowledge {
-
   height: fit-content;
   width: 100%;
 
@@ -248,7 +366,6 @@
   font-family: "Nunito-Regular";
   font-weight: bold;
   padding-left: 50px;
-  
 }
 .knowledgecontainer {
   height: 30vh;

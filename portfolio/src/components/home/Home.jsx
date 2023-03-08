@@ -15,10 +15,7 @@ export default function Home() {
     <div className="homeContainer">
       <div className="homeContainerMiddle">
         <div className="homeContainerMiddlePic">
-          <img
-            src={process.env.PUBLIC_URL + "components/jane.jpg"}
-            alt="myimage"
-          />
+          <img src={process.env.PUBLIC_URL + "image/jane2.jpg"} alt="me" />
         </div>
         <div className="homeContainerMiddleName">
           <h1>Jane Mwangi</h1>

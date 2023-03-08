@@ -11,7 +11,7 @@ import "./about.css";
 export default function About() {
   return (
     <div className="aboutContainer">
-      <div className="aboutMeContainer">
+      <div className="aboutMeContainer" id="aboutMeContainer">
         <div className="aboutMeTexthr ">
           <div className="aboutMeText">About Me</div>
           <div className="hr">
@@ -21,11 +21,11 @@ export default function About() {
 
         <div className="aboutMePicText">
           <div className="aboutMePic">
-          {/* <img src= {process.env.PUBLIC_URL + 'Assets/Me.png'} alt="myimage" /> */}
+          <img src= {process.env.PUBLIC_URL + 'image/jane.jpg'} alt="myprofile" />
           </div>
           <div className="aboutMeText1">
             <div className="WhoamI">Who am I</div>
-            <div className="WhoamIText">
+            <div className="WhoamIText" id="p">
             I am a web developer and UI/UX designer who is passionate about creating digital products that provide exceptional user experiences. I leverage my skills in programming and design to bring together form and function 
             to create visually stunning, easy-to-use, and accessible websites and web applications.
             </div>
@@ -72,7 +72,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="WhatCanIDoSection">
+        <div className="WhatCanIDoSection" id="WhatCanIDoSection">
           <div className="whatCanIDoContainer">
             <p>What I Do !</p>
           </div>

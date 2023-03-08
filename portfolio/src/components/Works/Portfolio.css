@@ -49,10 +49,25 @@ flex-direction: column;
   margin-right: 6%;
   background-color: #9ebbcd;
 }
+.projectpic img{
+  /* object-fit: fit; */
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
 @media (max-width: 415px) {
   .projectpic{
 margin-left: 6%;
 width: 320px;
+ 
+  }
+}
+@media (max-width: 415px) {
+  .projectpic img{
+position: relative;
+object-fit: fit;
+width: 100%;
+height: 100%;
  
   }
 }

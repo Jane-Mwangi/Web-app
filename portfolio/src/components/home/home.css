@@ -4,24 +4,6 @@
   background-color: #000000;
 }
 
-.topbarContainer {
-  width: 100%;
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.topbarContainerLogo {
-  width: 15%;
-  height: 40px;
-  margin-left: 20px;
-}
-
-.topbarContainerLogo p {
-  font-family: "Nunito-ExtraBold";
-  font-weight: bold;
-  color: #0be5d8;
-}
 .topbarContainerLeft {
   display: flex;
   width: 60%;
@@ -31,32 +13,6 @@
   justify-content: space-around;
   margin-bottom: 10px;
 }
-.topbarContainerHome,
-.topbarContainerAbout,
-.topbarContainerResume,
-.topbarContainerWorks,
-.topbarContainerBlogs,
-.topbarContainerContact {
-  width: 13%;
-  height: 40px;
-  margin-top: 20px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 15px;
-  background-color: #262626;
-  border-radius: 10px;
-  border: none solid rgba(255, 255, 255, 0.107);
-  display: flex;
-  cursor: pointer;
-  transition-duration: 0.3s;
-  color: #979090;
-  position: relative;
-}
-
-.topbarContainerHome {
-  display: flex;
-}
-
 
 .homeContainerMiddle {
   align-items: center;
@@ -91,10 +47,12 @@
 }
 .homeContainerMiddlePic img {
   width: 100%;
+  max-width: 100%;
   height: 100%;
-
+  position: relative;
   border-radius: 50%;
   object-fit: cover;
+  zoom: normal;
 }
 .homeContainerMiddleName {
   width: 100%;
@@ -102,23 +60,39 @@
   margin-left: 40%;
   margin-top: 20px;
   color: #979090;
-/* background-color: #fff; */
+  /* background-color: #fff; */
   padding-left: 30px;
 }
-.homeContainerMiddleName h1{
+.homeContainerMiddleName h1 {
   font-family: "Nunito-Regular";
+  animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+  border-right: 2px solid black;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
 }
 @media (max-width: 415px) {
   .homeContainerMiddleName h1 {
     font-size: 20px;
     align-items: center;
     margin-left: 30px;
- 
   }
 }
 .homeContainerMiddleName p {
   padding-left: 40px;
   font-family: "Nunito-ExtraLight";
+  animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+  border-right: 2px solid black;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .homeContainerMiddleSoial {
   width: 40%;
@@ -151,9 +125,8 @@
     align-items: center;
     height: max-content;
     width: max-content;
-  align-items: center;
-  padding-right: 7px;
- 
+    align-items: center;
+    padding-right: 7px;
   }
 }
 .bungalowicon {
@@ -187,16 +160,13 @@
   cursor: pointer;
 }
 .facebook {
-  color: #3b5998 ;
-;
-
+  color: #3b5998;
 }
 .twitter {
-  
   color: #00acee;
 }
 .github {
- color: white;
+  color: white;
 }
 .linkedin {
   color: #0072b1;
@@ -211,14 +181,14 @@
   cursor: pointer;
 }
 @media (max-width: 415px) {
-  .CVcontainer{
+  .CVcontainer {
     font-size: 15px;
     align-items: center;
     height: 40px;
     width: max-content;
-  align-items: center;
+    align-items: center;
 
- margin-left: 60%;
+    margin-left: 60%;
   }
 }
 .download {
@@ -227,15 +197,14 @@
   cursor: pointer;
 }
 @media (max-width: 415px) {
-  .download{
+  .download {
     font-size: 15px;
     align-items: center;
     height: max-content;
     width: max-content;
-  align-items: center;
-margin-left: 10px;
-margin-top: 0;
- 
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 0;
   }
 }
 .downloadcv {
@@ -245,14 +214,13 @@ margin-top: 0;
   font-family: "Nunito-Regular";
 }
 @media (max-width: 415px) {
-  .downloadcv{
+  .downloadcv {
     font-size: 15px;
     align-items: center;
     height: max-content;
     width: max-content;
-  align-items: center;
-margin-right: 10px;
-margin-top: 0;
- 
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 0;
   }
 }

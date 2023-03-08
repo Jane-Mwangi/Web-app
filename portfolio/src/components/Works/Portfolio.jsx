@@ -35,7 +35,7 @@ function Portfolio() {
       
       </div>
       <div className="projectpic">
-      {/* <img src={tyre} alt="redstore site" /> */}
+      <img src={process.env.PUBLIC_URL + "image/tyre.png"} alt="me" />
       </div>
     </div>
   );
